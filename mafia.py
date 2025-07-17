@@ -148,6 +148,7 @@ def process_night_actions(game):
 init_db()
 st.title("🎭 Mafia Party Game")
 st.set_page_config(page_title="Mafia - The Party Game", page_icon="🕵️‍♂️")
+st.markdown(f"[📩 Download the mobile app now!](https://github.com/sortira/mafia/releases/download/apk/The.Mafia.Game.apk)", unsafe_allow_html=True)
 st.markdown("Play the popular party game Mafia with your friends online, no need for one of you to sit out as Narrator! Have fun!")
 st.sidebar.title("🧭 Navigation")
 page = st.sidebar.radio("Go to", ["Game", "Help", "About"])
